@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">        
+    <title>Recipe App</title>
+</head>
+<body>
+    <div class="contains">
+        <header>
+            <a href="index.html"><h1>Naija Recipe</h1></a>
+            <button class="btn">Add Recipe</button>
+        </header>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Add Recipe</h1>
+
+            <form action="" class="myForm">
+              <label for="recipeNames">Recipe Name</label>
+              <input type="text" id="recipeName">
+              <label for="ingredient">Ingredients</label>
+              <input type="text" id="ingredients">
+              <label for="instruction">Instructions</label>
+              <input type="text" id="instructions">
+              <label for="imgUrl">Image URL (optional)</label>
+              <input type="text" id="imgURL"> 
+              <input type="submit" value="Submit" class="submit">
+            </form>
+              
+          </div>       
+        </div>
+
+        <div class="container">
+                
+        </div>
+
+        <div id="displayModal" class="modal">
+          <div class="modal-content" id="modal-content-display">
+            <span class="closer">&times;</span>
+        
+          </div>       
+        </div>
+
+    </div>
+    <footer class="footer"></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
